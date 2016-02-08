@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:buttonStyle">@style/button_background</item>
+        <item name="buttonStyle">@style/button_background</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="button_background">
+        <item name="android:background">@drawable/button_selector</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">@dimen/button_margins</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="myapp_button_background" parent="button_background">
+        <item name="android:background">@drawable/my_app_button_selector</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="heading_background">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_margin">@dimen/button_margins</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+    </style>
+
+
+</resources>
